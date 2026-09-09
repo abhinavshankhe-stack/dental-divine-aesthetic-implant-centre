@@ -2984,14 +2984,21 @@ figure {
 }
 
 .logo_image {
-  height: var(--_max-width---max-width--100);
-  object-fit: contain;
+  max-height: 44px !important;
+  max-width: 55px !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain !important;
+  display: block !important;
 }
 
 .navbar_logo {
-  width: var(--_max-width---max-width--100);
-  max-width: 140px;
-  padding: var(--_size-variables---element-spacing--none);
+  max-width: 60px !important;
+  max-height: 48px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0 !important;
 }
 
 .navbar_container {
@@ -8496,7 +8503,8 @@ figure {
   }
 
   .navbar_logo {
-    max-width: 130px;
+    max-width: 48px !important;
+    max-height: 42px !important;
   }
 
   .navbar_wrap {
@@ -9249,4 +9257,33 @@ footer{border-top:3px solid var(--primitive-color--primary-500,#24a3b1);}
 .section_team .about-team_header-para {
   color: #cbd5e1 !important;
 }
+
+/* Solo Lead Dental Surgeon Profile Centering */
+.team_list {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: stretch !important;
+  flex-wrap: wrap !important;
+  gap: 32px !important;
+}
+.team_list .w-dyn-item {
+  max-width: 420px !important;
+  width: 100% !important;
+}
+.navbar_logo {
+  max-width: 58px !important;
+  max-height: 46px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+.navbar_logo .logo_image,
+.logo_image {
+  max-height: 44px !important;
+  max-width: 55px !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain !important;
+  display: block !important;
+}
+
 
