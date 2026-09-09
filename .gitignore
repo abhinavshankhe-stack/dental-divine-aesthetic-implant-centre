@@ -1,0 +1,5 @@
+﻿*.ps1
+*.json
+*.png
+!assets/**
+!scraped_photos/**
