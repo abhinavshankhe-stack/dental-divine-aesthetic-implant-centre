@@ -2984,17 +2984,20 @@ figure {
 }
 
 .logo_image {
+  width: 44px !important;
+  height: 44px !important;
+  max-width: 44px !important;
   max-height: 44px !important;
-  max-width: 55px !important;
-  width: auto !important;
-  height: auto !important;
   object-fit: contain !important;
   display: block !important;
+  border-radius: 6px !important;
 }
 
 .navbar_logo {
-  max-width: 60px !important;
-  max-height: 48px !important;
+  width: 44px !important;
+  height: 44px !important;
+  max-width: 44px !important;
+  max-height: 44px !important;
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -9271,19 +9274,24 @@ footer{border-top:3px solid var(--primitive-color--primary-500,#24a3b1);}
   width: 100% !important;
 }
 .navbar_logo {
-  max-width: 58px !important;
-  max-height: 46px !important;
+  width: 44px !important;
+  height: 44px !important;
+  max-width: 44px !important;
+  max-height: 44px !important;
   display: flex !important;
   align-items: center !important;
+  justify-content: center !important;
+  padding: 0 !important;
 }
 .navbar_logo .logo_image,
 .logo_image {
+  width: 44px !important;
+  height: 44px !important;
+  max-width: 44px !important;
   max-height: 44px !important;
-  max-width: 55px !important;
-  width: auto !important;
-  height: auto !important;
   object-fit: contain !important;
   display: block !important;
+  border-radius: 6px !important;
 }
 
 
